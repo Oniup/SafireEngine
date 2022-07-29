@@ -1,0 +1,9 @@
+﻿---
+BasedOnStyle: Microsoft
+AlwaysBreakTemplateDeclarations: 'Yes'
+ColumnLimit: '120'
+Cpp11BracedListStyle: 'false'
+NamespaceIndentation: All
+PointerAlignment: Left
+
+...

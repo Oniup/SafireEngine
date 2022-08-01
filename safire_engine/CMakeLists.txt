@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 set(SAFIRE_ENGINE sfr_eng)
-project(${SAFIRE_ENGINE} VERSION 0.0.1)
+project(${SAFIRE_ENGINE} VERSION 0.0.2)
 
 find_package(OpenGL REQUIRED)
 

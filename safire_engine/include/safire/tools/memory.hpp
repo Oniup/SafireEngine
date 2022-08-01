@@ -1,6 +1,7 @@
 #ifndef SAFIRE_MEMORY_HPP
 #define SAFIRE_MEMORY_HPP
 
+#include "thirdparty/imgui/imgui.h"
 #include <assert.h>
 #include <stdio.h>
 

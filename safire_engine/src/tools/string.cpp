@@ -104,7 +104,7 @@ namespace safire
         return result;
     }
 
-    int String::get_length() const
+    int String::length() const
     {
         return strlen(m_string);
     }

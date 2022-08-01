@@ -37,9 +37,9 @@ namespace safire
 /*
 Safire Engine Change log
 
-    (30/07/2022)            * Implement of basic String class
-                            * Started development of the main application handler
-                            * Added a sandbox demo project
-                            * Started low level memory functions
-
+    v0.0.2 - (1/08/2022)            * Implemented Dynamic Array class with iterators
+    V0.0.1 - (30/07/2022)           * Implement of basic String class
+                                    * Started development of the main application handler
+                                    * Added a sandbox demo project
+                                    * Started low level memory functions
 */

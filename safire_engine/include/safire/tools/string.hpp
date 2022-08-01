@@ -9,7 +9,6 @@ namespace safire
       public:
         String();
         String(const String& string);
-        String(String&& string);
         String(const char* string);
         ~String();
 
@@ -29,19 +28,18 @@ namespace safire
         String operator+(const char* string) const;
 
       public:
-        inline const char* get_raw() const
+        inline const char* c_string() const
         {
             return m_string;
         }
 
-        int get_length() const;
+        int length() const;
 
         void append(const String& string);
         void append(const char* string);
 
         void copy(const String& string);
         void copy(const char* string);
-
         void move(String&& string);
 
         void clear();

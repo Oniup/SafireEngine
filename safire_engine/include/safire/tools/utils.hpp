@@ -4,9 +4,8 @@
 #include <stdint.h>
 #include <stdio.h>
 
-namespace safire
-{
-
-}
+#include "safire/tools/dynamic_array.hpp"
+#include "safire/tools/memory.hpp"
+#include "safire/tools/string.hpp"
 
 #endif // SAFIRE_UTILS_HPP

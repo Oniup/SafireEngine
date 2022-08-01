@@ -15,7 +15,7 @@ void SandboxApp::OnEntry()
 
 void SandboxApp::OnTermination()
 {
-    printf("Terminating Sandbox Application\n");
+    printf("\n\nTerminating Sandbox Application\n\n");
 }
 
 safire::Application* safire::get_application()

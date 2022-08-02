@@ -8,12 +8,12 @@ SandboxApp::~SandboxApp()
 {
 }
 
-void SandboxApp::OnEntry()
+void SandboxApp::on_entry()
 {
     printf("Creating Sandbox Application\n");
 }
 
-void SandboxApp::OnTermination()
+void SandboxApp::on_termination()
 {
     printf("\n\nTerminating Sandbox Application\n\n");
 }

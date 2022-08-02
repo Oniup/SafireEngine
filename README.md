@@ -1,6 +1,6 @@
 # Safire Engine
 
-Safire Engine is a 2D and 3D game engine that an idiot, first year student decided to waste his free time. On a serious note,
+Safire Engine (started on the 30/07/2022) is a 2D and 3D game engine that an idiot, first year student decided to waste his free time. On a serious note,
 I wanted to program my own game engine to learn computer graphics programming and to improve my knowledge of data structures
 by writting them myself (which also gives more control which is nice). The game engine is written in C++ and uses OpenGL as the 
 rendering API.

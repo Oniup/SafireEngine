@@ -144,6 +144,26 @@ namespace safire
             return Iterator(m_data + m_size);
         }
 
+        inline T& get_first() 
+        {
+            return m_data[0];
+        }
+
+        inline T& get_last()
+        {
+            return m_data[m_size - 1];
+        }
+
+        inline const T& get_first() const
+        {
+            return m_data[0];
+        }
+
+        inline const T& get_last() const
+        {
+            return m_data[m_size - 1];
+        }
+
         T& push_back(const T& element);
         void push_back(const DyArray& array);
         void push_back(const std::initializer_list<T> list);

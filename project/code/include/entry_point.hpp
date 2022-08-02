@@ -10,8 +10,8 @@ class SandboxApp : public safire::Application
     ~SandboxApp();
 
   public:
-    virtual void OnEntry() override;
-    virtual void OnTermination() override;
+    virtual void on_entry() override;
+    virtual void on_termination() override;
 };
 
 #endif // SANDBOX_ENTRY_POINT_HPP
